@@ -13,7 +13,6 @@ function makeImg(url){
     const img = $("<img>", {src : url})
     console.log(img)
     gifArea.append(img)
-    gifArea.append("I AM APPENDED")
 }
 
 $("#clear").on("click", function(e){
